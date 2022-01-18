@@ -24,7 +24,5 @@ jobs:
           cache: yarn
 
       - run: yarn
-      - run: yarn aspida
       - run: yarn lint
-      - run: yarn tsc
       - run: yarn test
